@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+
+  python-flask-app:
+    image: python-flask-app
+    container_name: python-flask-app
+    build:
+      context: .
+    ports:
+      - 8089:80
+    # environment:
+    #   - KAFKA_BOOTSTRAP_SERVERS=10.239.112.94:9093
+    #   - KAFKA_TOPIC_NAME=Summaries
+    #   - KAFKA_CONSUMER_GROUP_ID=Summaries-consumer-group
+
