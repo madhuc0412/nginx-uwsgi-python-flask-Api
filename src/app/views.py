@@ -8,6 +8,7 @@ class Home(Resource):
         q = request.args.get('q')
         dt = datetime.now()
         data = {
+            'message': 'Welcome to Python flask app',
             'Query' :   q,
             'Date'  :   dt.strftime('%Y-%m-%d'),
             'Time'  :   dt.strftime('%H:%M')
