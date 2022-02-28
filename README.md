@@ -13,7 +13,7 @@ Docker Build
 docker build -t python-flask-app .
 ```
 
-Docker run with docker-compose
+Docker run with docker-compose <br />
 Note: verify the docker-compose file.
 ```
 docker-compose up
@@ -30,6 +30,6 @@ docker run -p 8089:80 -it python-flask-app
 ```
 
 ## sample test
-htttp://localhost:8089/api/v1/home
-or
+htttp://localhost:8089/api/v1/home <br />
+or <br />
 htttp://localhost:8089/api/v1/home?q=test
