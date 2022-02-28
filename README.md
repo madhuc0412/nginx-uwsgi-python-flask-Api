@@ -14,7 +14,7 @@ docker build -t python-flask-app .
 ```
 
 Docker run with docker-compose <br />
-Note: verify the docker-compose file.
+**Note:** verify the docker-compose file.
 ```
 docker-compose up
 ```
