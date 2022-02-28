@@ -9,8 +9,3 @@ services:
       context: .
     ports:
       - 8089:80
-    # environment:
-    #   - KAFKA_BOOTSTRAP_SERVERS=10.239.112.94:9093
-    #   - KAFKA_TOPIC_NAME=Summaries
-    #   - KAFKA_CONSUMER_GROUP_ID=Summaries-consumer-group
-
